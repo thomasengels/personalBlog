@@ -6,3 +6,7 @@ a img {
 a > * {
 	padding-right: 15px;
 }
+
+.header-image {
+	object-fit: fill;
+}
