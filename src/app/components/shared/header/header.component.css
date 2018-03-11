@@ -1,0 +1,8 @@
+a img {
+  height: 36px;
+  width: auto;
+}
+
+a > * {
+	padding-right: 15px;
+}
