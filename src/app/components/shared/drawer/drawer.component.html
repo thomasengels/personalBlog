@@ -1,3 +1,6 @@
-<p>
-  drawer works!
-</p>
+<mat-drawer mode="side" [opened]="opened">
+    <mat-list>
+        <mat-list-item [routerLink]="['/']"> Foo</mat-list-item>
+        <mat-list-item [routerLink]="['/bar']"> Bar</mat-list-item>
+      </mat-list>
+</mat-drawer>

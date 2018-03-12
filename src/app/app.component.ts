@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  opened = false;
+
+  public toggleMenu(menuState: boolean): void {
+    this.opened = menuState;
+  }
 }

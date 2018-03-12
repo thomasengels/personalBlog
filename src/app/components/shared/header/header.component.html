@@ -1,7 +1,10 @@
 <img src="../../../../assets/img/header-image.jpg" class="header-image">
 <mat-toolbar color="primary">
   <mat-toolbar-row>
-    <span>Thomas Engels - The journey of an enthusiastic java developer</span>
+      <button mat-icon-button (click)="toggle($event)">
+          <mat-icon>menu</mat-icon>
+        </button>
+    <span>Thomas Engels - The journey of an enthusiastic Java developer</span>
     <span class="spacer"></span>
     <a href="https://github.com/thomasengels/"><img src="../../../../assets/img/github-logo.png"></a>
     <a href="https://www.linkedin.com/in/thomas-engels-502a6a3a/"><img src="../../../../assets/img/linkedin.png"></a>

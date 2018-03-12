@@ -1,1 +1,8 @@
-<app-header></app-header>
+<app-header (onMenuToggle)="toggleMenu($event)"></app-header>
+  <mat-sidenav-container class="example-container">
+    <app-drawer [opened]="opened"></app-drawer>
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
