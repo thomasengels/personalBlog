@@ -5,6 +5,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
 
 
 import { AppComponent } from './app.component';
+import { RouteModule } from './router.module';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    MaterialModule
+    MaterialModule,
+    RouteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
