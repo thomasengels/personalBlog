@@ -10,6 +10,7 @@ export const APP_ROUTES: Routes = [
       APP_ROUTES,
       { enableTracing: true } // <-- debugging purposes only
     )
-  ]
+  ],
+  exports: [RouterModule]
 })
 export class RouteModule { }
